@@ -50,7 +50,7 @@ function checkAnswer(currentLevel) {
         $("body").removeClass("game-over");
       }, 200);
       $("h1").html("Game Over <br> Press Restart button");
-      $(".start-btn").html(" Restart );
+      $(".start-btn").html(" Restart ");
       $(".start-btn").show();
       startOver();
     }
