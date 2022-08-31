@@ -8,13 +8,14 @@ var level = 0;
 
 var started = false;
 
-$(document).keydown(function() {
+$(".start-btn").click(function() {
 
   if (!started) {
 
     $("#level-title").text("Level " + level);
     nextSequence();
     started = true;
+    $(".start-btn").hide();
   }
 
 });
