@@ -26,11 +26,26 @@ p {
 
 .start-btn {
   margin: 25px;
+  display: inline-block;
+  padding: 15px 25px;
   font-size: 2rem;
-  background-color: #e7e7e7;
-  color: black;
-  border-radius: 12px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;  
+}
+
+.start-btn:hover {background-color: #3e8e41}
+
+.start-btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .btn {
