@@ -8,7 +8,7 @@ var level = 0;
 
 var started = false;
 
-$(document).keypress(function() {
+$(document).keydown(function() {
 
   if (!started) {
 
