@@ -24,6 +24,15 @@ p {
 
 }
 
+.start-btn {
+  margin: 25px;
+  font-size: 2rem;
+  background-color: #e7e7e7;
+  color: black;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 .btn {
   margin: 25px;
   display: inline-block;
